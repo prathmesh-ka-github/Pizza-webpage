@@ -64,3 +64,31 @@ body {
 .image img {
     height: 100vh;
 }
+
+@media screen and (max-width:600px) {
+    body {
+        font-size: 16px;
+    }
+
+    .title{
+        font-size: 26px;
+        margin-right: 0;
+    }
+    .image img{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+    .content {
+        width: 90vw;
+        margin-top: 80px;
+    }
+    .input-container{
+        flex-direction: column;
+    }
+    .inputs {
+        width: 80vw;
+        margin-bottom: 20px;
+    }
+}
